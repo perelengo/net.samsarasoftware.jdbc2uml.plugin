@@ -1,0 +1,1 @@
+# perelengo-net.samsarasoftware.jdbc2uml.plugin
