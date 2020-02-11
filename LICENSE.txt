@@ -1,0 +1,6 @@
+You may obtain a copy of the License at
+
+	http://www.samsara-software.es/licenses/license.txt
+	
+See the License for the specific language governing permissions and
+limitations under the License.

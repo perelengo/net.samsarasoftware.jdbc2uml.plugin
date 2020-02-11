@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InitializePsm
+Bundle-SymbolicName: net.samsarasoftware.jdbc2uml.plugin
+Bundle-Version: 1.0.0.qualifier
+
