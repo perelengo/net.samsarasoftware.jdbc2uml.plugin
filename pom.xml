@@ -3,19 +3,19 @@
 	<parent>
 		<groupId>net.samsarasoftware</groupId>
 		<artifactId>net.samsarasoftware</artifactId>
-		<version>0.2.0</version>
+		<version>0.2.0-SNAPSHOT</version>
 		<relativePath>../net.samsarasoftware/</relativePath>
 	</parent>
 	<groupId>net.samsarasoftware.jdbc2uml</groupId>
 	<artifactId>jdbc2uml-plugin</artifactId>
-	<version>0.2.0</version>
+	<version>0.2.0-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>net.samsarasoftware</groupId>
 			<artifactId>net.samsarasoftware.jdbc2uml</artifactId>
-			<version>0.2.0</version>
+			<version>0.2.0-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
@@ -37,31 +37,6 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>3.0.2</version>
-				<executions>
-					<execution>
-						<id>copy licenses</id>
-						<goals>
-							<goal>copy-resources</goal>
-						</goals>
-						<phase>generate-resources</phase>
-						<configuration>
-							<resources>
-								<resource>
-									<directory>${env.SAMSARASOFTWARE_WORKSPACE_DIR}/com.samsarasoftware/src/license/</directory>
-									<include>THIRD-PARTY.properties</include>
-									<filtering>true</filtering>
-								</resource>
-							</resources>
-							<outputDirectory>src/license</outputDirectory>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.0</version>
 				<configuration>
@@ -70,7 +45,11 @@
 				</configuration>
 			</plugin>
 
-
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-plugin-plugin</artifactId>
+				<version>3.6.0</version>
+			</plugin>
 		</plugins>
 
 	</build>
