@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>net.samsarasoftware.jdbc2uml</groupId>
 	<artifactId>jdbc2uml-plugin</artifactId>
-	<version>0.2.0</version>
+	<version>0.2.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<dependencies>
@@ -119,7 +119,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/perelengo/net.samsarasoftware.jdbc2uml.plugin.git</developerConnection>
-	  <tag>jdbc2uml-plugin-0.2.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<distributionManagement>
 		<repository>
