@@ -1,22 +1,21 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>net.samsarasoftware</groupId>
 		<artifactId>net.samsarasoftware</artifactId>
-		<version>0.2.0-SNAPSHOT</version>
+		<version>0.2.0</version>
 		<relativePath>../net.samsarasoftware/</relativePath>
 	</parent>
 	<groupId>net.samsarasoftware.jdbc2uml</groupId>
 	<artifactId>jdbc2uml-plugin</artifactId>
-	<version>0.2.0-SNAPSHOT</version>
+	<version>0.2.0</version>
 	<packaging>maven-plugin</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>net.samsarasoftware</groupId>
 			<artifactId>net.samsarasoftware.jdbc2uml</artifactId>
-			<version>0.2.0-SNAPSHOT</version>
+			<version>0.2.0</version>
 		</dependency>
 
 		<dependency>
@@ -120,7 +119,8 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/perelengo/net.samsarasoftware.jdbc2uml.plugin.git</developerConnection>
-	</scm>
+	  <tag>jdbc2uml-plugin-0.2.0</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>maven3.samsara-software.es</id>
