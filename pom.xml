@@ -3,19 +3,19 @@
 	<parent>
 		<groupId>net.samsarasoftware</groupId>
 		<artifactId>net.samsarasoftware</artifactId>
-		<version>0.2.0-SNAPSHOT</version>
+		<version>0.2.0</version>
 		<relativePath>../net.samsarasoftware/</relativePath>
 	</parent>
 	<groupId>net.samsarasoftware.jdbc2uml</groupId>
 	<artifactId>jdbc2uml-plugin</artifactId>
-	<version>0.2.0-SNAPSHOT</version>
+	<version>0.2.0</version>
 	<packaging>maven-plugin</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>net.samsarasoftware</groupId>
 			<artifactId>net.samsarasoftware.jdbc2uml</artifactId>
-			<version>0.2.0-SNAPSHOT</version>
+			<version>0.2.0</version>
 		</dependency>
 
 		<dependency>
@@ -116,4 +116,8 @@
 					</build>
 				</profile>
 			</profiles>
+
+  <scm>
+    <tag>jdbc2uml-plugin-0.2.0</tag>
+  </scm>
 </project>
