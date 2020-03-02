@@ -117,7 +117,13 @@
 				</profile>
 			</profiles>
 
-  <scm>
-    <tag>jdbc2uml-plugin-0.2.0</tag>
+	<scm>
+		<developerConnection>scm:git:https://github.com/perelengo/net.samsarasoftware.jdbc2uml.plugin.git</developerConnection>
   </scm>
+	<distributionManagement>
+		<repository>
+			<id>maven3.samsara-software.es</id>
+			<url>scpexe://maven3.samsara-software.es:22/home/maven3/www/public_html/repository</url>
+		</repository>
+	</distributionManagement>
 </project>
