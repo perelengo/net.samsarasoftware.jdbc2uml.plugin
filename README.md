@@ -1,1 +1,2 @@
-# perelengo-net.samsarasoftware.jdbc2uml.plugin
+The documentation can be found at:
+https://www.samsara-software.es/inicio/public/documentacion/modulosextractoresdemodelos/modulosextractoresdemodelos.html
